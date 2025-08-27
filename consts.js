@@ -1,30 +1,8 @@
 exports.FONTS_SANS = [
-  '"IBM Plex Sans"',
-  'ui-sans-serif',
-  'system-ui',
-  '-apple-system',
-  'BlinkMacSystemFont',
-  'Segoe UI',
-  'Roboto',
-  '"Noto Sans"',
-  '"Helvetica Neue"',
-  'Helvetica',
-  '"Nimbus Sans L"',
-  'Arial',
-  '"Liberation Sans"',
-  '"PingFang SC"',
-  '"Hiragino Sans GB"',
-  '"Noto Sans CJK SC"',
-  '"Source Han Sans SC"',
-  '"Source Han Sans CN"',
-  '"Microsoft YaHei"',
-  '"Wenquanyi Micro Hei"',
-  '"WenQuanYi Zen Hei"',
-  '"ST Heiti"',
-  'SimHei',
-  '"WenQuanYi Zen Hei Sharp"',
+  'var(--font-sans)',  /* 指向上面的组合字体 */
   'sans-serif'
 ]
+
 exports.FONTS_SERIF = [
   '"Source Serif"',
   'ui-serif',
