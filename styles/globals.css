@@ -1,6 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 中文专用字体 */
+@font-face {
+  font-family: 'DriftFont-CN';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/lxgwwenkai-regular.ttf') format('truetype');
+  /* 覆盖所有 CJK 字符区间 */
+  unicode-range:
+    U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF,
+    U+3000-303F, U+FF00-FFEF;
+}
+
+/* 英文专用字体 */
+@font-face {
+  font-family: 'DriftFont-EN';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/maplemono-regular.ttf') format('truetype');
+  /* 覆盖 ASCII 及常用拉丁扩展 */
+  unicode-range:
+    U+0000-007F, U+0080-00FF, U+2000-206F;
+}
+
+/* 全局一次性接管 */
+:root {
+  --font-sans: DriftFont-CN, DriftFont-EN, sans-serif;
+}
+
 @font-face {
   font-family: 'IBM Plex Sans';
   font-weight: 100 900;
