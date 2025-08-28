@@ -9,11 +9,5 @@ exports.FONTS_SERIF = [
 ]
 
 exports.FONTS_MONO = [
-  'var(--font-mono)',
-  'ui-monospace',
-  'SFMono-Regular',
-  'Consolas',
-  '"Liberation Mono"',
-  '"Courier New"',
-  'monospace'
+  'var(--font-mono)'  /* 指向同一套组合字体 */
 ]
