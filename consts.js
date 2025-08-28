@@ -7,3 +7,13 @@ exports.FONTS_SERIF = [
   'var(--font-serif)',  /* 指向同一套组合字体 */
   'serif'
 ]
+
+exports.FONTS_MONO = [
+  'var(--font-mono)',
+  'ui-monospace',
+  'SFMono-Regular',
+  'Consolas',
+  '"Liberation Mono"',
+  '"Courier New"',
+  'monospace'
+]
