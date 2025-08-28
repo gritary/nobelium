@@ -28,12 +28,15 @@
 
 /* 全局一次性接管 */
 :root {
+  /* ↓ 正文字体 ↓ */
   --font-sans: DriftFont-CN, DriftFont-EN, sans-serif;
-}
-
-:root {
+  /* ↓ 衬线字体 ↓ */
   --font-serif: DriftFont-CN, DriftFont-EN, serif;
-}
+  /* ↓ 代码字体 ↓ */
+  --font-mono: DriftFont-EN, DriftFont-CN,
+               ui-monospace, SFMono-Regular, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+}  
 
 html {
   --scrollbarBG: #ffffff00;
