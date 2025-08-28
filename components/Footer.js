@@ -18,7 +18,9 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
-          <Vercel />
+          <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">
+            Hosted on Netlify
+          </a>
         </div>
       </div>
     </div>
